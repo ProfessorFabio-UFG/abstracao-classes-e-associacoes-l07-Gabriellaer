@@ -2,7 +2,7 @@ public class Musica{
     private String name;
     private String type;
     private int year;
-    Compositor compositor;
+    private Compositor compositor;
     Musica(String name,String type,int year){
         this.name = name;
         this.type = type;

@@ -6,10 +6,6 @@ public class ProgramMusic {
         Compositor c1 = new Compositor(null, null);
         Compositor c2 = new Compositor(null, null);
         Compositor c3 = new Compositor(null, null);
-        music1.compositor = c1;
-        music2.compositor = c2;
-        music3.compositor = c3;
-
         //Iniciados
         System.out.println("----------------------------");
         System.out.println(music1.toString());
@@ -26,6 +22,9 @@ public class ProgramMusic {
         c1.setDataC("C1","C1");
         c2.setDataC("C2", "C2");
         c3.setDataC("C3","C3");
+        music1.compositor = c1;
+        music2.compositor = c2;
+        music3.compositor = c3;
         System.out.println("Musicas e Compositores");
         System.out.println("----------------------------");
         System.out.println(music1.toString());
